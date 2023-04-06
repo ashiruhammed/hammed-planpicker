@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  height: 100vh;
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+  background: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 25px;
+  font-weight: 400;
+}
+
+img {
+  background: hsla(216, 12%, 8%, 0.3);
+  padding: 10px;
+  border-radius: 50%;
+}
+p,
+.btn {
+  color: hsl(217, 12%, 63%);
+}
+
+.btn {
+  background: hsla(216, 12%, 8%, 0.3);
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+.rate {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card {
+  max-width: 310px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 1rem;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  background: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+button {
+  margin-top: 25px;
+  border-radius: 30px;
+  border: 0;
+  padding: 1rem 0;
+  background: hsl(25, 97%, 53%);
+  width: 280px;
+  letter-spacing: 3px;
+}
+
+button:hover > a {
+  color: hsl(25, 97%, 53%);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
